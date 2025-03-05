@@ -27,7 +27,10 @@ const contactCard = {
                 ${this.email}`;
     },
 
-    //have the information appear on the screen
-    document.getElementById('')
 }
+
+//display information on the screen by targeting the nodes then using the objects methods to display the information
+document.getElementById('contactName').textContent = contactCard.getFullName();
+document.getElementById('contactInfo').textContent = contactCard.getContactInformation();
+document.getElementById('contactAddress').textContent = contactCard.getAddress();
 
