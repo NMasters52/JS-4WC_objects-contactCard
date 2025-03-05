@@ -1,0 +1,58 @@
+/* style.css */
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.h1#contactName {
+    font-size: 2em;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+h2#contactInfo, h2#contactAddress {
+    font-size: 1.2em;
+    color: #555;
+}
+
+.container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    width: 400px;
+    max-width: 90%; /* Responsive width */
+    text-align: center; /* Center text within the inner container */
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .container {
+        padding: 20px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.1em;
+    }
+}
